@@ -4,10 +4,13 @@
     width: 100%;
     background-size: 100% 100%;
 	background-repeat: no-repeat;
+    filter: brightness(50%);
+    /* opacity: 0.8; */
 }
 .home-heading{
     color: rgba(2, 2, 66, 0.808);
     padding: 200px 0;
+    filter: brightness(200%);
 }
 .home-heading h5{
     line-height: 2.5rem;
@@ -24,4 +27,16 @@
     background-color: rgb(1, 1, 27)!important;
     border: none!important;
     color: white;
+}
+@media only screen and (min-width:300px) and (max-width:1288px)  {
+    .home-heading{
+         padding: 150px 0;
+    }
+    .home-heading h5{
+        line-height: 2.2rem;
+    }
+    .home-heading h1{
+        font-size: 2rem;
+        line-height: 2.6rem;
+    }
 }

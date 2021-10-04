@@ -11,16 +11,12 @@ const Home = () => {
         <>
             <div className="home-container">
                 <Container>
-                    <Row className="w-100">
-                        <Col className="home-heading">
-                            <h1>BODY & MIND in perfect balance</h1>
-                            <h5>Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</h5>
+                    <Row className="w-100 ">
+                        <Col className="home-heading ">
+                            <h1>BODY & MIND <br />in perfect balance</h1>
+                            <h5>Nanotechnology immersion along the information highway <br />will close the loop on focusing solely on the bottom line.</h5>
                             <Link to="/about"><Button className="button">Discover Now</Button></Link>
                         </Col>
-                        <Col>
-                            {/* <Image src={backgroundImage} rounded /> */}
-                        </Col>
-
                     </Row>
                 </Container>
             </div>
