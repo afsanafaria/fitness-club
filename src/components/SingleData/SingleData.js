@@ -14,7 +14,7 @@ const SingleData = (props) => {
                         <Card.Title>{service}</Card.Title>
                         <Card.Text>
                             Price: {price} BDT per month
-                            <br /><Link to={`/servicepage/${index}`}><Button className="mt-4">Learn More</Button></Link>
+                            <br /><Link to={`/servicepage/${index}`}><Button className="mt-4">Click here</Button></Link>
                         </Card.Text>
                     </Card.Body>
                 </Card>
