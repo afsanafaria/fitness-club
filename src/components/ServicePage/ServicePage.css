@@ -1,0 +1,10 @@
+.service-page{
+    text-align: center;
+    height: 100vh;
+}
+.service-page h2, .service-page h5{
+    color: rgba(1, 1, 112, 0.897);
+}
+.service-page >h2{
+    padding-top: 120px;
+}

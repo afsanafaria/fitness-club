@@ -1,0 +1,22 @@
+.home-container{
+    background-image: url('../../images/139118.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.home-heading{
+    color: rgba(2, 2, 66, 0.808);
+    padding: 200px 0;
+}
+.home-heading h5{
+    line-height: 2.5rem;
+}
+.home-heading h1{
+    font-size: 4rem;
+    line-height: 5.8rem;
+}
+.service-heading{
+    text-align: center;
+    color: rgba(1, 1, 112, 0.808)
+}
