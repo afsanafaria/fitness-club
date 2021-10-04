@@ -19,7 +19,7 @@ const Contact = () => {
                                     <Form.Label className="contact-heading">Tell us about your interests</Form.Label>
                                     <Form.Control as="textarea" rows={3} />
                                 </Form.Group>
-                                <Button variant="primary" type="submit">
+                                <Button className="button" type="submit">
                                     Submit
                                 </Button>
                             </Form>

@@ -15,7 +15,7 @@ const Home = () => {
                         <Col className="home-heading">
                             <h1>BODY & MIND in perfect balance</h1>
                             <h5>Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</h5>
-                            <Link to="/about"><Button>Discover Now</Button></Link>
+                            <Link to="/about"><Button className="button">Discover Now</Button></Link>
                         </Col>
                         <Col>
                             {/* <Image src={backgroundImage} rounded /> */}
@@ -36,8 +36,8 @@ const Home = () => {
                                         <Card.Body>
                                             <Card.Title>{singleData.service}</Card.Title>
                                             <Card.Text>
-                                                Price: {singleData.price} BDT per month
-                                                <br /><Link to="/services"><Button className="mt-4">Go to service</Button></Link>
+                                                {singleData.about}
+                                                <br /><Link to="/services"><Button className="mt-3 button">Know More</Button></Link>
                                             </Card.Text>
                                         </Card.Body>
                                     </Card>
