@@ -8,7 +8,7 @@ const About = () => {
         <>
             <div className="about-container">
                 <Container>
-                    <Row className="w-100 py-5 my-1">
+                    <Row className="w-100 py-5 my-5">
                         <Col sm={5}>
                             <Image src={backgroundImage} rounded className="w-100 about-img" />
                         </Col>

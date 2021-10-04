@@ -6,7 +6,7 @@ import { Row, Col, Container, Form, Button, Image } from 'react-bootstrap';
 const Contact = () => {
     return (
         <>
-            <div className="contact-container">
+            <div className="contact-container mt-5 pt-4">
                 <Container>
                     <Row className="w-100">
                         <Col className="my-5 py-5">

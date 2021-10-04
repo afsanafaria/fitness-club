@@ -11,7 +11,7 @@ const Service = () => {
      } */
     return (
         <>
-            <Container fluid className="px-5">
+            <Container fluid className="px-5 pt-5 my-3">
                 <h2 className="service-heading py-3">Our Services</h2>
                 <Row xs={1} md={3} className="g-4 w-100">
                     {

@@ -15,7 +15,7 @@ const Header = () => {
     return (
         <div>
             <BrowserRouter>
-                <Navbar bg="light" expand="lg" >
+                <Navbar bg="light" expand="lg" fixed="top" >
                     <Container>
                         <Navbar.Brand className="logo">Fitness Club By Afsana</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
