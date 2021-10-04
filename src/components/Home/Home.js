@@ -15,7 +15,7 @@ const Home = () => {
                         <Col className="home-heading">
                             <h1>BODY & MIND in perfect balance</h1>
                             <h5>Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</h5>
-                            <Link><Button>Discover Now</Button></Link>
+                            <Link to="/about"><Button>Discover Now</Button></Link>
                         </Col>
                         <Col>
                             {/* <Image src={backgroundImage} rounded /> */}
