@@ -22,9 +22,9 @@ const Home = () => {
             </div>
             <Container className="mb-4">
                 <h2 className="service-heading my-5 py-2">Our Services</h2>
-                <Row xs={1} md={3} className="g-4 w-100">
+                <Row xs={1} md={4} className="g-4 w-100">
                     {
-                        displayData.slice(0, 3).map(singleData => (
+                        displayData.slice(0, 4).map(singleData => (
                             <>
                                 <Col>
                                     <Card>
