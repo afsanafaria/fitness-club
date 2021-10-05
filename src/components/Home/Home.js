@@ -20,7 +20,7 @@ const Home = () => {
                     </Row>
                 </Container>
             </div>
-            <Container >
+            <Container className="mb-4">
                 <h2 className="service-heading my-5 py-2">Our Services</h2>
                 <Row xs={1} md={3} className="g-4 w-100">
                     {
@@ -43,9 +43,6 @@ const Home = () => {
                     }
                 </Row>
             </Container>
-
-
-
         </>
     );
 };
